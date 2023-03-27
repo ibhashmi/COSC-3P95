@@ -1,0 +1,297 @@
+{
+    "resource_metrics": [
+        {
+            "resource": {
+                "attributes": {
+                    "telemetry.sdk.language": "python",
+                    "telemetry.sdk.name": "opentelemetry",
+                    "telemetry.sdk.version": "1.17.0",
+                    "telemetry.auto.version": "0.38b0",
+                    "service.name": "unknown_service"
+                },
+                "schema_url": ""
+            },
+            "scope_metrics": [
+                {
+                    "scope": {
+                        "name": "opentelemetry.instrumentation.flask",
+                        "version": "0.38b0",
+                        "schema_url": ""
+                    },
+                    "metrics": [
+                        {
+                            "name": "http.server.active_requests",
+                            "description": "measures the number of concurrent HTTP requests that are currently in-flight",
+                            "unit": "requests",
+                            "data": {
+                                "data_points": [
+                                    {
+                                        "attributes": {
+                                            "http.method": "GET",
+                                            "http.host": "127.0.0.1:5000",
+                                            "http.scheme": "http",
+                                            "http.flavor": "1.1",
+                                            "http.server_name": "127.0.0.1"
+                                        },
+                                        "start_time_unix_nano": 1679861925922242651,
+                                        "time_unix_nano": 1679861980661635286,
+                                        "value": 0
+                                    }
+                                ],
+                                "aggregation_temporality": 2,
+                                "is_monotonic": false
+                            }
+                        },
+                        {
+                            "name": "http.server.duration",
+                            "description": "measures the duration of the inbound HTTP request",
+                            "unit": "ms",
+                            "data": {
+                                "data_points": [
+                                    {
+                                        "attributes": {
+                                            "http.method": "GET",
+                                            "http.host": "127.0.0.1:5000",
+                                            "http.scheme": "http",
+                                            "http.flavor": "1.1",
+                                            "http.server_name": "127.0.0.1",
+                                            "net.host.port": 5000,
+                                            "http.status_code": 200
+                                        },
+                                        "start_time_unix_nano": 1679861925923715352,
+                                        "time_unix_nano": 1679861980661635286,
+                                        "count": 1,
+                                        "sum": 2,
+                                        "bucket_counts": [
+                                            0,
+                                            1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            0
+                                        ],
+                                        "explicit_bounds": [
+                                            0.0,
+                                            5.0,
+                                            10.0,
+                                            25.0,
+                                            50.0,
+                                            75.0,
+                                            100.0,
+                                            250.0,
+                                            500.0,
+                                            750.0,
+                                            1000.0,
+                                            2500.0,
+                                            5000.0,
+                                            7500.0,
+                                            10000.0
+                                        ],
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                ],
+                                "aggregation_temporality": 2
+                            }
+                        }
+                    ],
+                    "schema_url": ""
+                }
+            ],
+            "schema_url": ""
+        }
+    ]
+}
+{
+    "resource_metrics": [
+        {
+            "resource": {
+                "attributes": {
+                    "telemetry.sdk.language": "python",
+                    "telemetry.sdk.name": "opentelemetry",
+                    "telemetry.sdk.version": "1.17.0",
+                    "telemetry.auto.version": "0.38b0",
+                    "service.name": "unknown_service"
+                },
+                "schema_url": ""
+            },
+            "scope_metrics": [
+                {
+                    "scope": {
+                        "name": "opentelemetry.instrumentation.flask",
+                        "version": "0.38b0",
+                        "schema_url": ""
+                    },
+                    "metrics": [
+                        {
+                            "name": "http.server.active_requests",
+                            "description": "measures the number of concurrent HTTP requests that are currently in-flight",
+                            "unit": "requests",
+                            "data": {
+                                "data_points": [
+                                    {
+                                        "attributes": {
+                                            "http.method": "GET",
+                                            "http.host": "127.0.0.1:5000",
+                                            "http.scheme": "http",
+                                            "http.flavor": "1.1",
+                                            "http.server_name": "127.0.0.1"
+                                        },
+                                        "start_time_unix_nano": 1679861925922242651,
+                                        "time_unix_nano": 1679862040667973414,
+                                        "value": 0
+                                    }
+                                ],
+                                "aggregation_temporality": 2,
+                                "is_monotonic": false
+                            }
+                        },
+                        {
+                            "name": "http.server.duration",
+                            "description": "measures the duration of the inbound HTTP request",
+                            "unit": "ms",
+                            "data": {
+                                "data_points": [],
+                                "aggregation_temporality": 2
+                            }
+                        }
+                    ],
+                    "schema_url": ""
+                }
+            ],
+            "schema_url": ""
+        }
+    ]
+}
+{
+    "resource_metrics": [
+        {
+            "resource": {
+                "attributes": {
+                    "telemetry.sdk.language": "python",
+                    "telemetry.sdk.name": "opentelemetry",
+                    "telemetry.sdk.version": "1.17.0",
+                    "telemetry.auto.version": "0.38b0",
+                    "service.name": "unknown_service"
+                },
+                "schema_url": ""
+            },
+            "scope_metrics": [
+                {
+                    "scope": {
+                        "name": "opentelemetry.instrumentation.flask",
+                        "version": "0.38b0",
+                        "schema_url": ""
+                    },
+                    "metrics": [
+                        {
+                            "name": "http.server.active_requests",
+                            "description": "measures the number of concurrent HTTP requests that are currently in-flight",
+                            "unit": "requests",
+                            "data": {
+                                "data_points": [
+                                    {
+                                        "attributes": {
+                                            "http.method": "GET",
+                                            "http.host": "127.0.0.1:5000",
+                                            "http.scheme": "http",
+                                            "http.flavor": "1.1",
+                                            "http.server_name": "127.0.0.1"
+                                        },
+                                        "start_time_unix_nano": 1679861925922242651,
+                                        "time_unix_nano": 1679862100671031886,
+                                        "value": 0
+                                    }
+                                ],
+                                "aggregation_temporality": 2,
+                                "is_monotonic": false
+                            }
+                        },
+                        {
+                            "name": "http.server.duration",
+                            "description": "measures the duration of the inbound HTTP request",
+                            "unit": "ms",
+                            "data": {
+                                "data_points": [],
+                                "aggregation_temporality": 2
+                            }
+                        }
+                    ],
+                    "schema_url": ""
+                }
+            ],
+            "schema_url": ""
+        }
+    ]
+}
+{
+    "resource_metrics": [
+        {
+            "resource": {
+                "attributes": {
+                    "telemetry.sdk.language": "python",
+                    "telemetry.sdk.name": "opentelemetry",
+                    "telemetry.sdk.version": "1.17.0",
+                    "telemetry.auto.version": "0.38b0",
+                    "service.name": "unknown_service"
+                },
+                "schema_url": ""
+            },
+            "scope_metrics": [
+                {
+                    "scope": {
+                        "name": "opentelemetry.instrumentation.flask",
+                        "version": "0.38b0",
+                        "schema_url": ""
+                    },
+                    "metrics": [
+                        {
+                            "name": "http.server.active_requests",
+                            "description": "measures the number of concurrent HTTP requests that are currently in-flight",
+                            "unit": "requests",
+                            "data": {
+                                "data_points": [
+                                    {
+                                        "attributes": {
+                                            "http.method": "GET",
+                                            "http.host": "127.0.0.1:5000",
+                                            "http.scheme": "http",
+                                            "http.flavor": "1.1",
+                                            "http.server_name": "127.0.0.1"
+                                        },
+                                        "start_time_unix_nano": 1679861925922242651,
+                                        "time_unix_nano": 1679862160674992125,
+                                        "value": 0
+                                    }
+                                ],
+                                "aggregation_temporality": 2,
+                                "is_monotonic": false
+                            }
+                        },
+                        {
+                            "name": "http.server.duration",
+                            "description": "measures the duration of the inbound HTTP request",
+                            "unit": "ms",
+                            "data": {
+                                "data_points": [],
+                                "aggregation_temporality": 2
+                            }
+                        }
+                    ],
+                    "schema_url": ""
+                }
+            ],
+            "schema_url": ""
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [26/Mar/2023 17:28:20] "GET /rolldice HTTP/1.1" 200 -
+{
+    "name": "do_roll",
+    "context": {
+        "trace_id": "0x5782eb7e746ed8959bc35c7af06d9323",
+        "span_id": "0x97d11bd599b7cc0a",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x5a68b09c233e3a9c",
+    "start_time": "2023-03-26T21:28:20.436156Z",
+    "end_time": "2023-03-26T21:28:20.436176Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "roll.value": 6
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "/rolldice",
+    "context": {
+        "trace_id": "0x5782eb7e746ed8959bc35c7af06d9323",
+        "span_id": "0x5a68b09c233e3a9c",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.SERVER",
+    "parent_id": null,
+    "start_time": "2023-03-26T21:28:20.435460Z",
+    "end_time": "2023-03-26T21:28:20.436326Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {
+        "http.method": "GET",
+        "http.server_name": "127.0.0.1",
+        "http.scheme": "http",
+        "net.host.port": 5000,
+        "http.host": "127.0.0.1:5000",
+        "http.target": "/rolldice",
+        "net.peer.ip": "127.0.0.1",
+        "http.user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0",
+        "net.peer.port": 40014,
+        "http.flavor": "1.1",
+        "http.route": "/rolldice",
+        "http.status_code": 200
+    },
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.17.0",
+            "telemetry.auto.version": "0.38b0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
